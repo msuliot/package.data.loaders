@@ -1,7 +1,7 @@
 import fitz  # Use PyMuPDF for PDF handling
 import logging
 import requests
-from data_loader_interface import DataLoaderInterface
+from msuliot.data_loader_interface import DataLoaderInterface
 
 class PdfLoader(DataLoaderInterface):
     

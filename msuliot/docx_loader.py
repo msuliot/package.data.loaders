@@ -1,7 +1,7 @@
 import docx
 import logging
 import os
-from data_loader_interface import DataLoaderInterface
+from msuliot.data_loader_interface import DataLoaderInterface
 from msuliot.base_64 import Base64
 
 class DocxLoader(DataLoaderInterface):

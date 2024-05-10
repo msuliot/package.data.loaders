@@ -1,6 +1,6 @@
 import logging
 
-from data_loader_interface import DataLoaderInterface
+from msuliot.data_loader_interface import DataLoaderInterface
 
 class RtfLoader(DataLoaderInterface):
     
