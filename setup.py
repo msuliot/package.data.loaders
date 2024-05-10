@@ -10,7 +10,17 @@ setup(
     url="https://github.com/msuliot/package.data.loaders.git",
     packages=find_packages(),
     install_requires=[
-        
+        'python-docx',
+        'PyPDF2',
+        'openpyxl',
+        'python-pptx',
+        'xlrd',
+        'pandas',
+        'PyMuPDF',
+        'nltk',
+        'numpy',
+        'requests',
+        'beautifulsoup4'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
