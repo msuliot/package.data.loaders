@@ -1,7 +1,7 @@
 import pandas as pd
 import openpyxl
 import logging
-from data_loader.data_loader_interface import DataLoaderInterface
+from data_loader_interface import DataLoaderInterface
 
 class XlsxLoader(DataLoaderInterface):
     

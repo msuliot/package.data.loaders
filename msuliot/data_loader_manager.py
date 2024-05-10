@@ -1,10 +1,10 @@
-from data_loader.docx_loader import DocxLoader
-from data_loader.pdf_loader import PdfLoader
-from data_loader.xlsx_loader import XlsxLoader
-from data_loader.csv_loader import CsvLoader
-from data_loader.rtf_loader import RtfLoader
-from data_loader.pptx_loader import PptxLoader
-from data_loader.html_loader import HtmlLoader
+from docx_loader import DocxLoader
+from pdf_loader import PdfLoader
+from xlsx_loader import XlsxLoader
+from csv_loader import CsvLoader
+from rtf_loader import RtfLoader
+from pptx_loader import PptxLoader
+from html_loader import HtmlLoader
 
 class DataLoaderManager:
     def __init__(self):

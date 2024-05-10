@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-from data_loader.data_loader_interface import DataLoaderInterface
+from data_loader_interface import DataLoaderInterface
 import logging
 
 class HtmlLoader(DataLoaderInterface):

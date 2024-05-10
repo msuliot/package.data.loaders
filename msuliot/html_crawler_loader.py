@@ -2,9 +2,9 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
-from data_loader.data_loader_interface import DataLoaderInterface
-from data_loader.data_loader_manager import DataLoaderManager
-from utils.base_64 import Base64
+from data_loader_interface import DataLoaderInterface
+from data_loader_manager import DataLoaderManager
+from msuliot.base_64 import Base64
 
 class WebsiteCrawler(DataLoaderInterface):
 
